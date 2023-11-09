@@ -1,0 +1,15 @@
+        self.frame2.pack(fill='both', expand=10)
+        label.grid(pady=10, row=5, column=2)
+        self.entry.grid(row=10, column=2, padx=40, pady=10)
+            self.label = tk.Label(self.pass_frame, text="Set Your Master Password(Must Require!!) : ", bg=self.pass_label_bg, font=self.font, fg = self.text_color)
+        pass_frame = tk.LabelFrame(self.pass_frame, borderwidth=10, bg=self.pass_frame_bg)
+        self._pass_frame.pack(pady=5)
+        self.btn_pass.pack()
+        self.f.pack(fill='both', ipady=500)
+        self.f1.pack(pady=250)
+        self.help_enc_btn.pack()
+        self.enc_btn_frame.grid(row=3, column=4, padx=30)
+        self.dec_btn_frame.grid(row=3, column=40, padx=30)
+        self.help_dec_btn.pack()
+
+
